@@ -28,8 +28,7 @@ root = tk.Tk()
 root.title('Погода')
 root.geometry('300x300')
 
-city = tk.StringVar
-city_entry = tk.Entry(root, textvariable=city, font=14, width = 300, justify='center')
+city_entry = tk.Entry(root,font=14, width = 300, justify='center')
 city_entry.pack()
 
 location_label = tk.Label(root, text='Город', font=('bold', 20))
